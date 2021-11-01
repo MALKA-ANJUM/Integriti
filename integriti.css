@@ -1,0 +1,440 @@
+*{
+    margin: 0px;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.logo{
+    text-align: center;
+    margin: 20px;
+}
+.checkbtn{
+   display: none; 
+}
+#check{
+    display: none;
+}
+
+nav{
+    text-align: center; 
+   
+}
+nav ul{
+    margin-bottom: 4px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #6D728A;
+    font-weight: bold;
+    padding: 0px 25px;
+    font-size: 15px;
+}
+a:active, a:hover{
+    border-bottom: 4px solid #E2007A;
+    color: #E2007A;
+    cursor: pointer;
+}
+.banner{
+    display: flex;
+    background-image: linear-gradient(to bottom right, #E2007A, #F48A88);
+    justify-content: center;
+    border-bottom: 1px solid #E2007A;
+    padding: 20px;
+    
+}
+
+.content{
+   padding: 50px 0px;
+   position: relative;
+    right: 180px;
+}
+.content p{
+    color: white;
+    font-size: 50px;
+    font-family: 'Nanum Myeongjo', serif;
+    
+}
+.content article{
+    color: white;
+    font-size: 17px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 25px;
+   
+}
+.banner .img{
+   position: relative;
+   top: 50px; 
+    right: 180px;
+   padding: 0px 30px;  
+   width: 20px; 
+}
+.banner button{
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 12px 15px;
+    font-size: 15px;
+    border: 1px solid #E2007A;
+    border-radius: 23px;
+    margin: 15px 0px;
+}
+
+.banner button:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+   
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+  
+    box-shadow: 0px 20px 15px #6D728A;
+    
+    
+}
+.card-container{
+   margin: 20px;
+   width: 20%;
+}
+.card-container p{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 30px;
+    color: #E2007A;
+}
+.card-container ul li{
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 1.6;
+    
+}
+.card-container ul li a{
+    text-decoration: none;
+    color: black;
+ 
+}
+.card-container ul li a:hover{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.card-container button{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #E2007A;
+    color: white;
+    font-size: 17px;
+    font-weight: lighter;
+    padding: 7px 15px;
+    border: 2px solid #E2007A;
+    border-radius: 25px;
+    margin: 20px;
+}
+.card-container button:hover{
+    background-color: #F48A88;
+    border: 2px solid #F48A88;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.container {
+    height: 180px;
+    position: relative;
+    background-image: linear-gradient(to bottom right, #EB1691, #F48A88);
+    margin-top: 50px;
+    padding: 20px;
+}
+      
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+}
+.vertical-center button{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    color: #E2007A;
+    letter-spacing: 0.6;
+    letter-spacing: 0.6;
+    padding: 10px 20px;
+    border: 1px solid #E2007A;
+    border-radius: 25px;
+}
+.vertical-center button:hover{
+    background-color: bisque;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.approach{
+   margin: 3% 20%;
+}
+.approach h2{
+    font-family: 'Nanum Myeongjo', serif;
+    color: #E2007A;
+    font-size: 25px;
+}
+.approach img{
+    width: 340px;
+}
+.approach_image{
+    position: relative;
+    width: 100%;   
+}
+.approach_description{
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 1.7;
+    font-size: 15px;
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    width: 45%; 
+}
+.approach a{
+    color: #E2007A;
+    text-decoration: none;
+}
+.approach a:hover{
+    border-bottom: 1px solid #E2007A;
+    cursor: pointer;
+}
+.heading{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 30px;
+    color: #555555;
+    margin-top: 150px;
+   position: relative;
+   left: 18%;
+}
+
+.blog{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    
+}
+
+.blog_inner{
+    margin: 20px;
+    width: 20%;
+}
+.blog_inner p{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 30px;
+}
+.blog_inner article{
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 1.6;
+    font-size: 15px;
+}
+.blog_inner button{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #E2007A;
+    padding: 10px 20px;
+    border: 1px solid #E2007A;
+    border-radius: 25px;
+    margin: 15px 0px;
+}
+.blog_inner button:hover{
+    background-color: #F48A88;
+    border: 1px solid #F48A88;
+    transition: 0.5s ease;
+}
+.fees{
+    
+    margin: 3% 20%;
+}
+.fees_description{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+}
+.fees p{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.fees article{
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 1.6;
+    font-size: 15px;
+    width: 40%;
+   
+}
+.fees button{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #E2007A;
+    padding: 10px 20px;
+    border: 1px solid #E2007A;
+    border-radius: 25px;
+    margin: 15px 0px;
+}
+.fees button:hover{
+    background-color: #F48A88;
+    transition: 0.5s ease;
+    border: 1px solid #F48A88;
+}
+
+.fees_img{
+    position: absolute;
+    top: 0px;
+    right: 50px;
+    width: 45%; 
+    
+}
+
+
+
+.consultation{
+    margin: 3% 20%;
+}
+.consultation_img{
+    position: relative;
+    width: 100%;
+}
+.cons_description{
+    position: absolute;
+    top: 0px;
+    width: 45%;
+    right: 0px;
+    
+   
+}
+.cons_description p{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 20px 5px;
+}
+.cons_description article{
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 1.6;
+    font-size: 15px;
+    width: 80%;
+}
+.cons_description button{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #E2007A;
+    padding: 10px 20px;
+    border: 1px solid #E2007A;
+    border-radius: 25px;
+    margin: 15px 0px;
+}
+
+.consultation button:hover{
+    background-color: #F48A88;
+    transition: 0.5s ease;
+    border: 1px solid #F48A88;
+}
+.test{
+    background-image: linear-gradient(to bottom right, #EB1691, #F48A88);
+    width: 100%;
+    text-align: center;
+    padding: 90px 0px;
+
+    
+}
+.test p{
+    font-family: 'Nanum Myeongjo', serif;
+    color: white;
+    font-size: 28px;
+    margin: 30px;
+}
+.test article{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+    color: white;
+    margin: 10px 0px;
+   
+}
+.test button{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    color: #575757;
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid #E2007A;
+    margin: 20px 0px;
+}
+.test button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: 0.5s ease;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    margin: 7% 15%;
+    
+}
+.contact .description{
+    font-family: 'Nanum Myeongjo', serif;
+    color: #E2007A;
+    font-size: 43px;
+}
+.contact button{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #E2007A;
+    padding: 10px 20px;
+    border: 1px solid #E2007A;
+    border-radius: 25px;
+    margin: 15px 0px;
+    
+}
+
+.links{
+    display: flex;
+    justify-content: center; 
+    
+    
+}
+.img_link{
+    margin: 30px;
+}
+.website_links{
+    margin: 30px;
+}
+.website_links p{
+    padding-left: 35px;
+    border-bottom: 2px dotted black;
+}
+.website_links ul li{
+    list-style-type: none;
+    padding: 3px;
+    font-size: 15px;
+
+}
+.website_links ul li a{
+   color: black;
+   font-family: 'Montserrat Alternates', sans-serif;
+   padding: ;
+}
+.website_links ul li a:hover{
+    border-bottom: 1px solid black;
+}
+.contact_links{
+    display: flex;
+    flex-direction: column;
+}
+
